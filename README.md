@@ -19,28 +19,15 @@ Slow software. Letters to a future self. The kind of scroll that earns its motio
 
 ### the bench
 
-<table>
-  <tr>
-    <td>&nbsp;<sub><code>languages</code></sub>&nbsp;</td>
-    <td><img src="https://cdn.simpleicons.org/typescript/93C5FD" height="30" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/93C5FD" height="30" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/openjdk/93C5FD" height="30" alt="Java" title="Java" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/python/93C5FD" height="30" alt="Python" title="Python" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/php/93C5FD" height="30" alt="PHP" title="PHP" /></td>
-  </tr>
-  <tr>
-    <td>&nbsp;<sub><code>frontend</code></sub>&nbsp;</td>
-    <td><img src="https://cdn.simpleicons.org/react/93C5FD" height="30" alt="React" title="React" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/vite/93C5FD" height="30" alt="Vite" title="Vite" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/tailwindcss/93C5FD" height="30" alt="Tailwind" title="Tailwind CSS" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/threedotjs/93C5FD" height="30" alt="Three.js" title="Three.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/greensock/93C5FD" height="30" alt="GSAP" title="GSAP" /></td>
-  </tr>
-  <tr>
-    <td>&nbsp;<sub><code>backend</code></sub>&nbsp;</td>
-    <td><img src="https://cdn.simpleicons.org/nodedotjs/93C5FD" height="30" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/express/93C5FD" height="30" alt="Express" title="Express" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/laravel/93C5FD" height="30" alt="Laravel" title="Laravel" /></td>
-  </tr>
-  <tr>
-    <td>&nbsp;<sub><code>data</code></sub>&nbsp;</td>
-    <td><img src="https://cdn.simpleicons.org/postgresql/93C5FD" height="30" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/prisma/93C5FD" height="30" alt="Prisma" title="Prisma" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/mysql/93C5FD" height="30" alt="MySQL" title="MySQL" /></td>
-  </tr>
-  <tr>
-    <td>&nbsp;<sub><code>adjacent</code></sub>&nbsp;</td>
-    <td><img src="https://cdn.simpleicons.org/figma/93C5FD" height="30" alt="Figma" title="Figma" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/blender/93C5FD" height="30" alt="Blender" title="Blender" /></td>
-  </tr>
-</table>
+<p><code>&nbsp;languages&nbsp;</code>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/typescript/93C5FD" height="28" alt="TypeScript" title="TypeScript" /> &nbsp; <img src="https://cdn.simpleicons.org/javascript/93C5FD" height="28" alt="JavaScript" title="JavaScript" /> &nbsp; <img src="https://cdn.simpleicons.org/openjdk/93C5FD" height="28" alt="Java" title="Java" /> &nbsp; <img src="https://cdn.simpleicons.org/python/93C5FD" height="28" alt="Python" title="Python" /> &nbsp; <img src="https://cdn.simpleicons.org/php/93C5FD" height="28" alt="PHP" title="PHP" /></p>
+
+<p><code>&nbsp;frontend&nbsp;&nbsp;</code>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/react/93C5FD" height="28" alt="React" title="React" /> &nbsp; <img src="https://cdn.simpleicons.org/vite/93C5FD" height="28" alt="Vite" title="Vite" /> &nbsp; <img src="https://cdn.simpleicons.org/tailwindcss/93C5FD" height="28" alt="Tailwind" title="Tailwind CSS" /> &nbsp; <img src="https://cdn.simpleicons.org/threedotjs/93C5FD" height="28" alt="Three.js" title="Three.js" /> &nbsp; <img src="https://cdn.simpleicons.org/greensock/93C5FD" height="28" alt="GSAP" title="GSAP" /></p>
+
+<p><code>&nbsp;backend&nbsp;&nbsp;&nbsp;</code>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nodedotjs/93C5FD" height="28" alt="Node.js" title="Node.js" /> &nbsp; <img src="https://cdn.simpleicons.org/express/93C5FD" height="28" alt="Express" title="Express" /> &nbsp; <img src="https://cdn.simpleicons.org/laravel/93C5FD" height="28" alt="Laravel" title="Laravel" /></p>
+
+<p><code>&nbsp;data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/postgresql/93C5FD" height="28" alt="PostgreSQL" title="PostgreSQL" /> &nbsp; <img src="https://cdn.simpleicons.org/prisma/93C5FD" height="28" alt="Prisma" title="Prisma" /> &nbsp; <img src="https://cdn.simpleicons.org/mysql/93C5FD" height="28" alt="MySQL" title="MySQL" /></p>
+
+<p><code>&nbsp;adjacent&nbsp;&nbsp;</code>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/figma/93C5FD" height="28" alt="Figma" title="Figma" /> &nbsp; <img src="https://cdn.simpleicons.org/blender/93C5FD" height="28" alt="Blender" title="Blender" /></p>
 
 <br/>
 
