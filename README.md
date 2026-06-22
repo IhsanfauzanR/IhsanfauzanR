@@ -45,4 +45,6 @@ adjacent     figma · blender (in the margins)
 
 <sub><i>build the quiet things — yang terasa seperti rumah</i></sub>
 
-</div># IhsanfauzanR
+[![View CV](https://img.shields.io/badge/%F0%9F%93%84%20VIEW%20CV-7aa2f7?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=1a1b27)](https://github.com/IhsanfauzanR/IhsanfauzanR/blob/main/cv.pdf)
+
+</div>
