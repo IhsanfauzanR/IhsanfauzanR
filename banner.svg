@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 350" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0a0e27"/>
+      <stop offset="100%" stop-color="#0c1538"/>
+    </linearGradient>
+
+    <radialGradient id="a1">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a2">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a3">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="45%" stop-color="#e0f2fe"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+      <animate attributeName="x1" values="-150%;100%" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-50%;200%" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="vig" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="black" stop-opacity="0"/>
+      <stop offset="80%" stop-color="black" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.6"/>
+    </radialGradient>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1e293b" stroke-width="0.4" opacity="0.5"/>
+    </pattern>
+
+    <symbol id="sf" viewBox="-12 -12 24 24">
+      <g stroke="currentColor" stroke-width="0.7" stroke-linecap="round" fill="none">
+        <line x1="0" y1="-10" x2="0" y2="10"/>
+        <line x1="-10" y1="0" x2="10" y2="0"/>
+        <line x1="-7.07" y1="-7.07" x2="7.07" y2="7.07"/>
+        <line x1="-7.07" y1="7.07" x2="7.07" y2="-7.07"/>
+        <line x1="0" y1="-7" x2="-1.6" y2="-9"/><line x1="0" y1="-7" x2="1.6" y2="-9"/>
+        <line x1="0" y1="7" x2="-1.6" y2="9"/><line x1="0" y1="7" x2="1.6" y2="9"/>
+        <line x1="-7" y1="0" x2="-9" y2="-1.6"/><line x1="-7" y1="0" x2="-9" y2="1.6"/>
+        <line x1="7" y1="0" x2="9" y2="-1.6"/><line x1="7" y1="0" x2="9" y2="1.6"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <rect width="1500" height="350" fill="url(#bg)"/>
+  <rect width="1500" height="350" fill="url(#grid)"/>
+
+  <g filter="url(#blur)">
+    <ellipse cx="280" cy="130" rx="400" ry="220" fill="url(#a1)">
+      <animate attributeName="cx" values="280;330;280" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1200" cy="250" rx="380" ry="200" fill="url(#a2)">
+      <animate attributeName="cx" values="1200;1150;1200" dur="17s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="800" cy="80" rx="350" ry="150" fill="url(#a3)">
+      <animate attributeName="cy" values="80;105;80" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g fill="#dbeafe">
+    <circle cx="180" cy="50" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="30" r="0.7"><animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="60" r="1.0"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="45" r="1.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="70" r="0.9"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1280" cy="40" r="1.1"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1430" cy="85" r="0.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="50" cy="100" r="0.8"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="20" r="0.6"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="115" r="0.5"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="130" r="0.8"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g fill="#e0f2fe">
+    <circle cx="100" r="1.0" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.9;1" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" r="0.8" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="16s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.9;1" dur="16s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="500" r="1.3" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="11s" repeatCount="indefinite" begin="4s"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.9;1" dur="11s" repeatCount="indefinite" begin="4s"/>
+    </circle>
+    <circle cx="720" r="0.7" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="15s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.9;1" dur="15s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="950" r="1.0" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="12s" repeatCount="indefinite" begin="3s"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.9;1" dur="12s" repeatCount="indefinite" begin="3s"/>
+    </circle>
+    <circle cx="1180" r="1.2" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="14s" repeatCount="indefinite" begin="5s"/>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite" begin="5s"/>
+    </circle>
+    <circle cx="1400" r="0.7" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="17s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.9;1" dur="17s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="200" r="0.6" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="15s" repeatCount="indefinite" begin="6s"/>
+      <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.9;1" dur="15s" repeatCount="indefinite" begin="6s"/>
+    </circle>
+    <circle cx="850" r="0.9" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="13s" repeatCount="indefinite" begin="7.5s"/>
+      <animate attributeName="opacity" values="0;0.75;0.75;0" keyTimes="0;0.1;0.9;1" dur="13s" repeatCount="indefinite" begin="7.5s"/>
+    </circle>
+    <circle cx="1320" r="0.5" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="18s" repeatCount="indefinite" begin="9s"/>
+      <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.9;1" dur="18s" repeatCount="indefinite" begin="9s"/>
+    </circle>
+    <circle cx="600" r="0.8" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="14s" repeatCount="indefinite" begin="8s"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite" begin="8s"/>
+    </circle>
+    <circle cx="1050" r="0.6" opacity="0">
+      <animate attributeName="cy" values="-20;370" dur="16s" repeatCount="indefinite" begin="10s"/>
+      <animate attributeName="opacity" values="0;0.65;0.65;0" keyTimes="0;0.1;0.9;1" dur="16s" repeatCount="indefinite" begin="10s"/>
+    </circle>
+  </g>
+
+  <g>
+    <use href="#sf" x="1340" y="50" width="36" height="36" color="#93c5fd" opacity="0.55">
+      <animateTransform attributeName="transform" type="rotate" from="0 1358 68" to="360 1358 68" dur="60s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sf" x="70" y="270" width="22" height="22" color="#60a5fa" opacity="0.45">
+      <animateTransform attributeName="transform" type="rotate" from="0 81 281" to="-360 81 281" dur="80s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sf" x="1280" y="280" width="18" height="18" color="#93c5fd" opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0 1289 289" to="360 1289 289" dur="100s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <line x1="60" y1="222" x2="178" y2="222" stroke="#3b82f6" stroke-width="0.8" opacity="0.55"/>
+  <circle cx="178" cy="222" r="2" fill="#7dd3fc" opacity="0.75"/>
+
+  <text x="60" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="300" fill="url(#shimmer)" letter-spacing="0.05em" opacity="0">
+    deezai
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.3s" fill="freeze"/>
+  </text>
+
+  <text x="62" y="208" font-family="'Courier New', monospace" font-size="12" fill="#7dd3fc" letter-spacing="0.4em" opacity="0">
+    M · IHSAN · FAUZAN · R
+    <animate attributeName="opacity" from="0" to="0.85" dur="1.5s" begin="0.8s" fill="freeze"/>
+  </text>
+
+  <text x="60" y="254" font-family="Georgia, serif" font-size="15" font-style="italic" fill="#bfdbfe" opacity="0">
+    quiet interfaces · slow software
+    <animate attributeName="opacity" from="0" to="0.85" dur="1.5s" begin="1.2s" fill="freeze"/>
+  </text>
+
+  <text x="60" y="282" font-family="'Courier New', monospace" font-size="10" fill="#94a3b8" letter-spacing="0.25em" opacity="0">
+    CIMAHI · BANDUNG · ID
+    <animate attributeName="opacity" from="0" to="0.7" dur="1.5s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <text x="1440" y="50" font-family="'Courier New', monospace" font-size="10" fill="#64748b" letter-spacing="0.18em" text-anchor="end" opacity="0">
+    -6.88° · 107.54°
+    <animate attributeName="opacity" from="0" to="0.65" dur="2s" begin="1.8s" fill="freeze"/>
+  </text>
+
+  <text x="1440" y="295" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7dd3fc" text-anchor="end" opacity="0">
+    yang tenang, yang terasa seperti rumah
+    <animate attributeName="opacity" from="0" to="0.75" dur="2s" begin="2s" fill="freeze"/>
+  </text>
+
+  <rect width="1500" height="350" fill="url(#vig)" pointer-events="none"/>
+</svg>
