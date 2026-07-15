@@ -8,8 +8,9 @@
 
 <br/>
 
-> Informatics student, final year. Cimahi, Indonesia.
-> Most things here were built slowly, on purpose.
+> Building thoughtful software.
+> Slowly, deliberately, and built to last.
+
 
 <br/>
 
@@ -49,6 +50,6 @@ Slow software. Letters to a future self. The kind of scroll that earns its motio
 
 <br/>
 
-<sub><i>build the quiet things — yang terasa seperti rumah</i></sub>
+<sub><i>build the quiet things</i></sub>
 
 </div>
