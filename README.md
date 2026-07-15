@@ -41,7 +41,7 @@ Slow software. Letters to a future self. The kind of scroll that earns its motio
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=IhsanfauzanR&bg_color=0F172A&color=93C5FD&line=7DD3FC&point=BFDBFE&hide_border=true&area=true&area_color=1E40AF" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=IhsanfauzanR&bg_color=0F172A&color=93C5FD&line=7DD3FC&point=BFDBFE&hide_border=true&area=true&area_color=1E40AF&cache_seconds=300" />
 
 <br/><br/>
 
