@@ -35,9 +35,9 @@ Slow software. Letters to a future self. The kind of scroll that earns its motio
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=IhsanfauzanR&show_icons=true&rank_icon=github&hide_border=true&bg_color=0F172A&title_color=93C5FD&icon_color=7DD3FC&text_color=CBD5E1&include_all_commits=true&count_private=true&cache_seconds=1800" height="170"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=IhsanfauzanR&show_icons=true&hide_border=true&bg_color=0F172A&title_color=93C5FD&icon_color=7DD3FC&text_color=CBD5E1&include_all_commits=true&count_private=true" height="170"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=IhsanfauzanR&layout=compact&hide_border=true&bg_color=0F172A&title_color=93C5FD&text_color=CBD5E1&langs_count=8&cache_seconds=1800" height="170"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=IhsanfauzanR&layout=compact&hide_border=true&bg_color=0F172A&title_color=93C5FD&text_color=CBD5E1&langs_count=8" height="170"/>
 
 <br/><br/>
 
