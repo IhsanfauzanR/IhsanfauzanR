@@ -1,6 +1,6 @@
 I'm Deezai. I build web software, and I sell some of it.
 
-Most of what I make goes out under **[Talvenward](ttps://talvenward.com)**, a one-person
+Most of what I make goes out under **[Talvenward](https://talvenward.com)**, a one-person
 studio selling website templates as source code. One at a time, each one finished before the next
 one starts. The repositories are private, because the source is the product.
 
